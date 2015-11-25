@@ -3,6 +3,7 @@
   "version": "1.0.0-*",
 
   "dependencies": {
+    "Bower": "1.3.11",
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-beta8",
     "Microsoft.AspNet.Server.Kestrel": "1.0.0-beta8",
     "Microsoft.AspNet.StaticFiles": "1.0.0-beta8"
@@ -16,7 +17,7 @@
     "dnx451": { },
     "dnxcore50": { }
   },
-
+  
   "exclude": [
     "wwwroot",
     "node_modules"
