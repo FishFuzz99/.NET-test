@@ -4,6 +4,9 @@
 <head>
     <title>The World - @ViewBag.Title</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootswatch/yeti/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="~/CSS/site.css" />
 </head>
 
@@ -12,7 +15,7 @@
     <div id="sidebar">
         <img src="~/img/profilepicture.png" alt="headshot" class="headshot" />
         <span id="username">John Doe</span>
-        <ul class="menu">
+        <ul class="nav">
             <li class="active"><a asp-controller="App" asp-action="Index">Home</a></li>
             <li><a asp-controller="App" asp-action="About">About</a></li>
             <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
@@ -22,7 +25,9 @@
     <div id="wrapper">
         <div id="main">
             <div>
-                <button id="sidebarToggle">Toggle Menu</button>
+                <button id="sidebarToggle" class="btn btn-primary btn-sm">
+                    <i class="fa fa-angle-left"></i>
+                </button>
             </div>
            
             <div>
@@ -32,11 +37,12 @@
         </div>
 
         <div id="footer">
-            &copy; 2015 Fake Studios
+            <p class="text-primary">&copy; 2015 Fake Studios</p>
         </div>
     </div>
 
     <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="~/js/site.js"></script>
 
     @RenderSection("Scripts", false)

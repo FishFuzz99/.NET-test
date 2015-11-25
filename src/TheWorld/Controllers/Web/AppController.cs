@@ -50,10 +50,7 @@ namespace TheWorld.Controllers.Web
 
                 }
             }
-            else
-            {
 
-            }
             return View();
         }
     }
