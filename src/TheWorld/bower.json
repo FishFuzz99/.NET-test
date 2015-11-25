@@ -1,0 +1,13 @@
+{
+  "name": "TheWorld",
+  "version": "0.0.0",
+  "homepage": "https://github.com/FishFuzz99/.NET-test",
+  "authors": [
+    "FishFuzz99 <fishfuzz99@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}

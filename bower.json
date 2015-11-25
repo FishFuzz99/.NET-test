@@ -1,0 +1,20 @@
+{
+  "name": "TheWorld",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/FishFuzz99/.NET-test",
+  "authors": [
+    "FishFuzz99 <fishfuzz99@gmail.com>"
+  ],
+  "description": "Trying out .NET and some other things",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
