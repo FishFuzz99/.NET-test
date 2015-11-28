@@ -1,6 +1,7 @@
 {
   "AppSettings": {
-    "SiteEmailAddress": "test@email.com"
+    "SiteEmailAddress": "test@email.com",
+    "BingKey": "placeholder"
   },
   "Data": {
     "WorldContextConnection": "Server=ANDREW-PC\\SQLEXPRESS;Database=TheWorldDB;Trusted_Connection=true;MultipleActiveResultSets=true;"
